@@ -1,0 +1,135 @@
+body{
+    background-image: url(./download.jpeg);
+    background-size: cover;
+    
+}
+.container{
+    border-width: 10px  ;
+    border-color: green greenyellow;
+    border-style:groove;
+    
+}
+.head_container{
+    display: flex;
+    
+}
+
+.heading{
+    background-color: black;
+    color: white;
+    border: 7px solid red;
+    border-radius: 40px;
+    white-space: pre;
+    font-size: x-large;
+    font-weight: bold;
+    font-style: italic; 
+    line-height: 30px;
+    margin:30px 0 0 20px
+}
+
+.right{
+       width: 350px;
+        height: 120px;
+        line-height: 30px; 
+          
+        
+}
+.middle{
+    width: 500px;
+    height: 60px;
+    margin-left: -200px;
+    margin-right: 350px;
+    margin-top: 37px;
+}
+
+.left{
+    width: 400px;
+    height: 100px;
+    
+    
+}
+.mid_container{
+    display: flex;
+    justify-content: space-around;
+    margin:80px 0 0 40px;
+}
+.circle{
+    background-color: #0EA293;
+    text-decoration: underline;
+    border-radius:50%;
+    border: 5px solid grey;
+    width:350px ;
+    height:350px;
+    margin-top: 300px;
+
+   
+}
+.circleText{
+    text-align: center;
+    padding-top: 75px;
+    font-weight:900;
+    font-style: italic;
+    font-size: x-large;
+}
+
+.form{
+    width: 400px;
+    height: 750px;
+    border: 8px red dashed;
+    font-size: x-large;
+    color: tomato;
+    margin-right: 100px;
+    text-align: center;
+    background-color: white;
+ 
+}
+#dob{
+    width: 142px;
+}
+.form_heading{
+    font-weight: bolder;
+}
+label{
+    display: block;
+}
+
+.form_inputs{
+    padding-top: 15px;
+}
+.endContainer{
+    display: flex;
+    justify-content: space-around;
+}
+.menu{
+    width: 450px;
+    display: inline-block;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+    margin-left: 500px;
+}
+.menuBox{
+    color: blue;
+    background-color: aquamarine;
+    border: 5px solid green;
+    border-radius: 30px;
+    text-align: center;
+    height: 300px;
+    width: 400px;
+    margin: 50px;  
+    font-size: large;
+
+}
+.menu_box_heading{
+    color: rgb(74, 7, 115);
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.beverage_height{
+    height: 350px;
+}
+.beverage_heading{
+   width: 200px;
+   padding-left: 100px;
+    
+}
